@@ -23,6 +23,7 @@
 
 html {
   box-sizing: border-box;
+  /* Keeps navigation smooth */
   scroll-behavior: smooth;
 }
 
@@ -56,6 +57,7 @@ h2 {
 
 /* Navigation */
 nav {
+  /* keeps nav on top of everything */
   z-index: 10;
   position: fixed;
   font-family: Oswald, sans-serif;
@@ -68,6 +70,7 @@ nav {
 
 a {
   margin-right: 25px;
+  /* anchor elements are primary color */
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: 3px solid transparent;
